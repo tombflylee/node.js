@@ -1,5 +1,7 @@
 ## 使用express，mongoose，搭建的简单登陆登出系统。
 
+使用到express-session，connect-mongo模块，实现会话功能。
+
 效果图：
 
 ![Alt text](http://i2.muimg.com/567571/51b552274d70d1b1.png)
