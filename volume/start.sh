@@ -5,9 +5,9 @@
 yum -y install wget yarn \
 && cd /opt \
 && wget https://nodejs.org/dist/v10.16.3/node-v10.16.3-linux-x64.tar.xz \
-&& tar -zxf node-v8.11.1-linux-x64.tar.gz \
+&& tar -zxf node-v10.16.3-linux-x64.tar.xz \
 && mv node-v8.11.1-linux-x64 node \
-&& rm -rf node-v8.11.1-linux-x64.tar.gz \
+&& rm -rf node-v10.16.3-linux-x64.tar.xz \
 && ln -s /opt/node/bin/node /usr/bin/node \
 && ln -s /opt/node/bin/npm /usr/bin/npm \
 && curl --silent --location https://dl.yarnpkg.com/rpm/yarn.repo | tee /etc/yum.repos.d/yarn.repo \
