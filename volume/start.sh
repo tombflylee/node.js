@@ -6,7 +6,7 @@ yum -y install wget yarn \
 && cd /opt \
 && wget http://nodejs.org/dist/latest-v8.x/node-v8.16.1-linux-x64.tar.gz \
 && tar -zxf node-v8.16.1-linux-x64.tar.gz \
-&& mv node-v8.11.1-linux-x64 node \
+&& mv node-v8.16.1-linux-x64 node \
 && rm -rf node-v8.16.1-linux-x64.tar.gz \
 && ln -s /opt/node/bin/node /usr/bin/node \
 && ln -s /opt/node/bin/npm /usr/bin/npm \
