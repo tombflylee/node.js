@@ -11,6 +11,7 @@ yum -y install wget yarn \
 && ln -s /opt/node/bin/node /usr/bin/node \
 && ln -s /opt/node/bin/npm /usr/bin/npm \
 && curl --silent --location https://dl.yarnpkg.com/rpm/yarn.repo | tee /etc/yum.repos.d/yarn.repo \
+&& yum -y install openssl \
 && yum -y install yarn \
 && yarn global add pm2@2.10.2 \
 && cd /app \
